@@ -1,0 +1,19 @@
+{
+    "name": "tronderdata/lift-servicehistorikk",
+    "description": "A module fore historik on lift's",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "tronderdata\\lift-servicehistorikk\\": "lift-servicehistorikk/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "tronderdata\\lift-servicehistorikk\\Providers\\LiftHistorikkServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
