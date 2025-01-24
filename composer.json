@@ -6,7 +6,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "tronderdata\\liftservicehistorikk\\": "lift-servicehistorikk/"
+            "tronderdata\\liftservicehistorikk\\": "src/"
         }
     },
     "extra": {
